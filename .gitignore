@@ -1,0 +1,17 @@
+Plaintext
+
+# Ignorar datos locales de procesamiento
+data_bronze/
+data_silver/
+data_gold/
+
+# Ignorar capturas de pantalla de diagnostico o debug
+*.png
+*.jpg
+*.jpeg
+
+# Ignorar entornos virtuales si creas uno luego
+venv/
+.venv/
+__pycache__
+.pytest_cache/
