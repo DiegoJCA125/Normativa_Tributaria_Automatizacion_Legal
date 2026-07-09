@@ -11,7 +11,9 @@ data_gold/
 *.jpeg
 
 # Ignorar entornos virtuales si creas uno luego
+.env
 venv/
 .venv/
-__pycache__
+__pycache__/
 .pytest_cache/
+.vscode/
